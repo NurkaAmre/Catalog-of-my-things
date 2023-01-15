@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # my comment
 class Item
   def initialize(publish_date, archived: false)
