@@ -1,10 +1,13 @@
+# frozen_string_literal: true
+
+# my comment
 class App
   def initialize
     @books = []
     @music_albums = []
     @games = []
     @movies = []
-    
+
     @genres = []
     @authors = []
     @labels = []
