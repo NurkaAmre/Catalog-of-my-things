@@ -3,11 +3,13 @@ require './item'
 class Label < Item
   attr_accessor :items, :title, :color
   attr_reader :id
+
   def initialize(title: String, color: String)
     @id = Random.rand(1..100)
     @title = title
     @color = color
     @items = []
+    super(publish_date)
   end
 
   def add_item(item)
