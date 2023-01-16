@@ -1,4 +1,4 @@
-require './item'
+require '../item'
 
 class Genre < Item
   attr_accessor :items, :name
