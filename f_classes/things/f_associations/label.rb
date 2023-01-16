@@ -9,7 +9,7 @@ class Label < Item
     @title = title
     @color = color
     @items = []
-    super()
+    super(publish_date)
   end
 
   def add_item(item)
