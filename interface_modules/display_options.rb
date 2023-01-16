@@ -1,10 +1,8 @@
 require_relative './process_option/add_book'
 require_relative './process_option/add_music_album'
 require_relative './process_option/add_game'
-require_relative './process_option/add_movie'
 require_relative './process_option/list_books'
 require_relative './process_option/list_games'
-require_relative './process_option/list_movies'
 require_relative './process_option/list_music_albums'
 require_relative './process_option/associations/list_authors'
 require_relative './process_option/associations/list_genres'
@@ -15,10 +13,8 @@ module DisplayOptions
   include AddBook
   include AddGame
   include AddMusicAlbum
-  include AddMovie
   include ListBook
   include ListGame
-  include ListMovie
   include ListMusicAlbums
   include ListAuthors
   include ListGenre
@@ -42,17 +38,13 @@ module DisplayOptions
     when 6
       list_authors
     when 7
-      list_movies
-    when 8
       list_sources
-    when 9
+    when 8
       add_book
-    when 10
+    when 9
       add_music_album
-    when 11
+    when 10
       add_game
-    when 12
-      add_movie
     else
       exit
     end
@@ -67,12 +59,10 @@ module DisplayOptions
       '4) List all genres',
       '5) List all games',
       '6) List all authors',
-      '7) List all movies',
-      '8) List all sources',
-      '9) Add a book',
-      '10) Add a music',
-      '11) Add a game',
-      '12) Add a movie',
+      '7) List all sources',
+      '8) Add a book',
+      '9) Add a music',
+      '10) Add a game',
       'Exit with other input'
     ]
     puts 'Welcome to my app'.green
