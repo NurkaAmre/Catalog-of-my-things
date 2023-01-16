@@ -27,7 +27,10 @@ class Item
     genre.items.push(self) unless genre.items.include?(self)
   end
 
-  private
+  def add_author(author)
+    @authors = author
+    author.items.push(self) unless author.items.include?(self)
+  end
 
   def can_be_archived?
     ten_years_ago = Time.now - 10.years

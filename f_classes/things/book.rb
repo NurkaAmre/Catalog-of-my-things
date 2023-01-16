@@ -9,7 +9,6 @@ class Book < Item
   end
 
   def can_be_archived?
-    ten_years_ago = Time.now - 10.years
-    @publisher < ten_years_ago
+   true || @cover_state == 'bad'
   end
 end
