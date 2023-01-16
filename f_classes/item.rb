@@ -21,6 +21,12 @@ class Item
     label.items.push(self) unless label.items.include?(self)
   end
 
+  
+  def add_genre(genre)
+    @genres = genre
+    genre.items.push(self) unless genre.items.include?(self)
+  end
+
   private
 
   def can_be_archived?
