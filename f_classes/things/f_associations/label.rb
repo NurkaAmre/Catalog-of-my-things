@@ -9,11 +9,7 @@ class Label < Item
     @title = title
     @color = color
     @items = []
-<<<<<<< HEAD:f_classes/things/f_associations/label.rb
     super(publish_date)
-=======
-    super()
->>>>>>> dev:f_classes/label.rb
   end
 
   def add_item(item)
