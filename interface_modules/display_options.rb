@@ -1,4 +1,4 @@
-# require_relative './process_option/add_book'
+require_relative './process_option/add_book'
 require_relative './process_option/add_music_album'
 require_relative './process_option/add_game'
 require_relative './process_option/list_books'
@@ -8,10 +8,9 @@ require_relative './process_option/associations/list_authors'
 require_relative './process_option/associations/list_genres'
 require_relative './process_option/associations/list_labels'
 require_relative './process_option/associations/list_sources'
-require './app'
 
 module DisplayOptions
-  # include AddBook
+  include AddBook
   include AddGame
   include AddMusicAlbum
   include ListBook
@@ -23,7 +22,6 @@ module DisplayOptions
   include ListSources
 
   def display_options
-    app = App.new
     menu
     option = gets.chomp.to_i
     case option
@@ -42,7 +40,7 @@ module DisplayOptions
     when 7
       list_sources
     when 8
-      app.add_book
+      add_book
     when 9
       add_music_album
     when 10
