@@ -7,7 +7,6 @@ require_relative './process_option/list_music_albums'
 require_relative './process_option/associations/list_authors'
 require_relative './process_option/associations/list_genres'
 require_relative './process_option/associations/list_labels'
-require_relative './process_option/associations/list_sources'
 
 module DisplayOptions
   include AddBook
@@ -19,7 +18,6 @@ module DisplayOptions
   include ListAuthors
   include ListGenre
   include ListLabel
-  include ListSources
 
   def display_options
     menu
@@ -38,12 +36,10 @@ module DisplayOptions
     when 6
       list_authors
     when 7
-      list_sources
-    when 8
       add_book
-    when 9
+    when 8
       add_music_album
-    when 10
+    when 9
       add_game
     else
       exit
@@ -59,10 +55,9 @@ module DisplayOptions
       '4) List all genres',
       '5) List all games',
       '6) List all authors',
-      '7) List all sources',
-      '8) Add a book',
-      '9) Add a music',
-      '10) Add a game',
+      '7) Add a book',
+      '8) Add a music',
+      '9) Add a game',
       'Exit with other input'
     ]
     puts 'Welcome to my app'.green
