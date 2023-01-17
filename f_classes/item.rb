@@ -1,4 +1,3 @@
-# my comment
 class Item
   attr_accessor :publish_date, :genres, :authors, :labels, :sources
   attr_reader :id

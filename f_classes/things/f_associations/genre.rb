@@ -8,7 +8,7 @@ class Genre < Item
     @id = Random.rand(1..100)
     @name = name
     @items = []
-    super()
+    super(publish_date)
   end
 
   def add_item(item)

@@ -17,7 +17,11 @@ module AddMusicAlbum
 
     print 'Is music available on spotify [Y/N]: '.yellow
     spotify = gets.chomp.downcase
-    on_spotify = spotify == 'y'
+    if spotify == 'y'
+      true
+    else
+      false
+    end
     puts
 
     print 'Enter label title: '.yellow
@@ -28,7 +32,7 @@ module AddMusicAlbum
     color = gets.chomp
     puts
 
-    add_music_album = MusicAlbum.new(publish_date, on_spotify)
+    add_music_album = MusicAlbum.new(publish_date, on_spotify: spotify)
     @music_albums << { publish_date: add_music_album.publish_date, on_spotify: add_music_album.on_spotify }
     add_label = Label.new(title, color)
     @labels << { title: add_label.title, color: add_label.color }

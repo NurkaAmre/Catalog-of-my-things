@@ -56,10 +56,9 @@ module DisplayOptions
       '4) List all genres',
       '5) List all games',
       '6) List all authors',
-      '7) List all sources',
-      '8) Add a book',
-      '9) Add a music',
-      '10) Add a game',
+      '7) Add a book',
+      '8) Add a music',
+      '9) Add a game',
       'Exit with other input'
     ]
     puts 'Welcome to my app'.green
