@@ -1,19 +1,20 @@
 require 'colorize'
-# frozen_string_literal: true
 require_relative './interface_modules/display_options'
+require_relative './f_data_json/save_data'
+require_relative './f_data_json/read_data'
 
-# my comment
 class App
   include DisplayOptions
-
+  include DataSaver
+  include DataReader
   def initialize
-    @books = []
+    @books = load_books
     @music_albums = []
     @games = []
 
     @genres = []
     @authors = []
-    @labels = []
+    @labels = load_labels
     @sources = []
   end
 

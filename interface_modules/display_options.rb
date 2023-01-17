@@ -26,7 +26,7 @@ module DisplayOptions
     option = gets.chomp.to_i
     case option
     when 1
-      list_books
+      list_all_books
     when 2
       list_labels
     when 3
