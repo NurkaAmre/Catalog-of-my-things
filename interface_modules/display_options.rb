@@ -8,7 +8,6 @@ require_relative './process_option/associations/list_authors'
 require_relative './process_option/associations/list_genres'
 require_relative './process_option/associations/list_labels'
 
-
 module DisplayOptions
   include AddBook
   include AddGame
