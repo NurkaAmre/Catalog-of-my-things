@@ -7,7 +7,7 @@ require_relative './process_option/list_music_albums'
 require_relative './process_option/associations/list_authors'
 require_relative './process_option/associations/list_genres'
 require_relative './process_option/associations/list_labels'
-require_relative './process_option/associations/list_sources'
+
 
 module DisplayOptions
   include AddBook
@@ -19,7 +19,6 @@ module DisplayOptions
   include ListAuthors
   include ListGenre
   include ListLabel
-  include ListSources
 
   def display_options
     menu
@@ -38,12 +37,10 @@ module DisplayOptions
     when 6
       list_authors
     when 7
-      list_sources
-    when 8
       add_book
-    when 9
+    when 8
       add_music_album
-    when 10
+    when 9
       add_game
     else
       exit

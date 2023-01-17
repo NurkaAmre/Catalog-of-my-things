@@ -9,13 +9,12 @@ class App
   include DataReader
   def initialize
     @books = load_books
-    @music_albums = []
+    @music_albums = load_music_albums
     @games = []
 
-    @genres = []
+    @genres = load_genres
     @authors = []
     @labels = load_labels
-    @sources = []
   end
 
   def run

@@ -21,7 +21,7 @@ module DataReader
     end
   end
 
-  def load_music_album
+  def load_music_albums
     if File.exist?('./f_data_json/music_album.json')
       listmusic = File.open('./f_data_json/music_album.json')
       info = listmusic.read
