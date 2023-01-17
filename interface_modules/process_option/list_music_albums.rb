@@ -3,7 +3,7 @@ require_relative '../../f_data_json/read_data'
 module ListMusicAlbums
   include DataReader
   def list_music_albums
-    @music_albums = load_music_album
+    @music_albums = load_music_albums
     if @music_albums.empty?
       puts 'There are no music album'.red
     else

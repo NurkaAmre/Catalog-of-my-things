@@ -2,5 +2,17 @@
   {
     "publish_date": "12/12/12",
     "on_spotify": "y"
+  },
+  {
+    "publish_date": "09/12/2022",
+    "on_spotify": "y"
+  },
+  {
+    "publish_date": "01/17/2023",
+    "on_spotify": "n"
+  },
+  {
+    "publish_date": "333",
+    "on_spotify": "y"
   }
 ]

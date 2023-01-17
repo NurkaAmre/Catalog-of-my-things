@@ -6,7 +6,7 @@ module ListGenre
       puts 'There are no genres listed, please enter a genre name'.red
     else
       @genres.each_with_index do |genre, index|
-        puts "(#{index}) Genre Name: #{genre['genre_name']}".blue.underline
+        puts "(#{index}) Genre Name: #{genre['genre']}".blue.underline
       end
     end
   end

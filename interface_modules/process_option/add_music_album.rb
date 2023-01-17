@@ -17,10 +17,11 @@ module AddMusicAlbum
 
     print 'Is music available on spotify [Y/N]: '.yellow
     spotify = gets.chomp.downcase
-    if spotify == 'y'
-      true
-    else
-      false
+    case spotify
+      when 'y'
+        true
+      when 'n'
+       false
     end
     puts
 
