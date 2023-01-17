@@ -1,10 +1,10 @@
-require '../item'
+require './f_classes/item'
 
 class Label < Item
   attr_accessor :items, :title, :color
   attr_reader :id
 
-  def initialize(title: String, color: String)
+  def initialize(title, color)
     @id = Random.rand(1..100)
     @title = title
     @color = color
