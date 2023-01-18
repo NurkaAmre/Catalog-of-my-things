@@ -9,7 +9,7 @@ module AddGame
   include DataSaver
   def add_game
     date = Time.now
-    formatted_time = date.strftime("%Y-%m-%d %H:%M:%S")
+    formatted_time = date.strftime('%Y-%m-%d %H:%M:%S')
     publish_date = formatted_time
 
     print 'Enter Genre of game: '.blue
@@ -40,7 +40,7 @@ module AddGame
     when 'y'
       last_played_at = formatted_time
     when 'n'
-      last_played_at = "Did not play"
+      last_played_at = 'Did not play'
     end
     puts
 
