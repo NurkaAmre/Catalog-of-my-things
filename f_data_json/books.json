@@ -10,5 +10,15 @@
   {
     "publisher": "king",
     "cover_state": "good"
+  },
+  {
+    "publisher": "getbooks",
+    "cover_state": {
+      "cover_state": "good"
+    }
+  },
+  {
+    "publisher": "dfghd",
+    "cover_state": "good"
   }
 ]
