@@ -40,4 +40,24 @@ module DataReader
       File.write('./f_data_json/genre.json', [])
     end
   end
+
+  def load_authors
+    if File.exist?('./f_data_json/author.json')
+      listauthors = File.open('./f_data_json/author.json')
+      info = listauthors.read
+      JSON.parse(info)
+    else
+      File.write('./f_data_json/author.json', [])
+    end
+  end
+
+  def load_games
+    if File.exist?('./f_data_json/game.json')
+      listgames = File.open('./f_data_json/game.json')
+      info = listgames.read
+      JSON.parse(info)
+    else
+      File.write('./f_data_json/game.json', [])
+    end
+  end
 end
