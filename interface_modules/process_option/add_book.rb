@@ -36,11 +36,11 @@ module AddBook
     end
     puts
 
-    print 'Enter book title: '.yellow
+    print 'Enter label title: '.yellow
     title = gets.chomp
     puts
 
-    print 'Enter color: '.yellow
+    print 'Enter label color: '.yellow
     color = gets.chomp
     puts
 
