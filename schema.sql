@@ -18,3 +18,4 @@ CREATE TABLE genres (
 );
 
 Select * From music_albums;
+Select * From genres;

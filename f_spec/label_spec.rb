@@ -1,0 +1,1 @@
+puts 'label.test'
