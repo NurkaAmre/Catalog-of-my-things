@@ -16,4 +16,12 @@ module DataSaver
   def save_genre(genre)
     File.write('./f_data_json/genre.json', JSON.pretty_generate(genre))
   end
+
+  def save_game(game)
+    File.write('./f_data_json/game.json', JSON.pretty_generate(game))
+  end
+
+  def save_author(author)
+    File.write('./f_data_json/author.json', JSON.pretty_generate(author))
+  end
 end

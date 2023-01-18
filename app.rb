@@ -10,10 +10,10 @@ class App
   def initialize
     @books = load_books
     @music_albums = load_music_albums
-    @games = []
+    @games = load_games
 
     @genres = load_genres
-    @authors = []
+    @authors = load_authors
     @labels = load_labels
   end
 
