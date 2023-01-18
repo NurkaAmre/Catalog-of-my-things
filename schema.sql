@@ -17,5 +17,20 @@ CREATE TABLE genres (
   name VARCHAR(255)
 );
 
+CREATE TABLE books (
+  id INT PRIMARY KEY,
+  cover_state VARCHAR(255),
+  FOREIGN KEY (id) REFERENCES items(id)
+);
+
+CREATE TABLE labels (
+  id INT PRIMARY KEY,
+  title VARCHAR(255),
+  color VARCHAR(255)
+);
+
 Select * From music_albums;
 Select * From genres;
+
+Select * From books;
+Select * From labels;
