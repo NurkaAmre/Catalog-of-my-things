@@ -10,7 +10,7 @@ module AddBook
     formatted_time = date.strftime('%Y-%m-%d %H:%M:%S')
     publish_date = formatted_time
 
-    print 'Enter Genre of game: '.yellow
+    print 'Enter Genre of book: '.yellow
     genre_name = gets.chomp
     puts
 
