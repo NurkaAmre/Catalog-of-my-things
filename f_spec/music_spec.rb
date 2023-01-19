@@ -5,7 +5,7 @@ require './app'
 describe MusicAlbum do
   context 'Given an instance of a musicAlbum' do
     before :each do
-      @music_albums = MusicAlbum.new('02/02/2020', true)
+      @music_albums = MusicAlbum.new(true)
     end
 
     it 'returns a new music album' do
