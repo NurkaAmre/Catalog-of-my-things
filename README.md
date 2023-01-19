@@ -133,6 +133,17 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/AmreNurgul)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/amre-nurgul/)
 
+👤 **Shuhad Loofer**
+
+- GitHub: [@Shuhad786](https://github.com/shuhad786)
+- LinkedIn: [Shuhad Loofer](https://www.linkedin.com/in/shuhad-loofer/)
+
+👤 **Usirusen Ikon**
+
+- GitHub: [@UsirusenIkon](https://github.com/UsirusenIkon)
+- Twitter: [@Usirusen_Ikon](https://twitter.com/Usirusen_Ikon)
+- LinkedIn: [Usirusen Ikon](https://www.linkedin.com/in/usirusen-ikon-775855174/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
