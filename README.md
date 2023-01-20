@@ -63,7 +63,7 @@
 
 ## 🚀 Project Documentation <a name="live-demo"></a>
 
-Please visit our zoom video presentation. Click the [https://drive.google.com/file/d/1Ucf_OuF0-NixGChEU_OJXAv_F_teSMCt/view?usp=share_link]() button.
+Please visit our zoom video presentation. Click the [https://drive.google.com/file/d/1Ucf_OuF0-NixGChEU_OJXAv_F_teSMCt/view?usp=sharing]() button.
 
 
 ### Diagram
