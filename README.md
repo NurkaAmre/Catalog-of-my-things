@@ -63,7 +63,7 @@
 
 ## 🚀 Project Documentation <a name="live-demo"></a>
 
-Please visit our zoom video presentation. Click the [Live demo](https://drive.google.com/file/d/1Ucf_OuF0-NixGChEU_OJXAv_F_teSMCt/view?usp=sharing) button.
+Please visit our zoom video presentation. Click the [Live demo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.synoforum.com%2Fmedia%2Fwelcome-gif.2814%2F&psig=AOvVaw1wxZM090HyIDqtCk-Btxcj&ust=1674453747215000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIiHjLnA2vwCFQAAAAAdAAAAABAJ) button.
 
 
 ### Diagram
